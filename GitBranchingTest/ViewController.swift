@@ -14,9 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+    }
+    
+    
+    func thisIsAFunction() {
         print("Hello world!")
-        
-        
         print(reverse(text: "Branching"))
     }
 
